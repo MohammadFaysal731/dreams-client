@@ -8,11 +8,15 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#FDE0DE",
+          primary: "#F66962",
+
+          "primary-focus": "#917CF6",
 
           secondary: "#D9EEFF",
 
-          accent: "#F66962",
+          "secondary-focus": "#807388",
+
+          accent: "#FDE0DE",
 
           neutral: "#F38681",
 
@@ -23,12 +27,9 @@ export default {
           success: "#BCD2F7",
 
           "base-100": "#ffffff",
-
-          error: "#917CF6",
         },
       },
     ],
   },
   plugins: [require("daisyui")],
 };
-
