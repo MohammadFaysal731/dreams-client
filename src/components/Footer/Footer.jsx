@@ -119,13 +119,15 @@ const Footer = () => {
             <span className="select-none mx-2 text-2xl font-thin ">&#124;</span>
             Privacy
           </span>
-          <span>© 2023 DreamsLMS. All rights reserved.</span>
+          <p className="whitespace-nowrap">
+            © 2023 DreamsLMS. All rights reserved.
+          </p>
         </div>
         {/* seconde part mobile */}
         <div className="md:hidden flex flex-col items-center m-12 space-y-5">
-          <span>Terms</span>
-          <span>Privacy</span>
-          <span>© 2023 DreamsLMS. All rights reserved.</span>
+          <span className="text-sm">Terms</span>
+          <span className="text-sm">Privacy</span>
+          <p className="text-sm">© 2023 DreamsLMS. All rights reserved.</p>
         </div>
       </div>
     </footer>

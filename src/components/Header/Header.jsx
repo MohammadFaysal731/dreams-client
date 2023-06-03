@@ -5,13 +5,13 @@ import { RiMenu2Fill } from "react-icons/ri";
 const Header = () => {
   const [open, setOpen]=useState(false);
   return (
-    <nav className="bg-gradient-to-r from-accent to-secondary" >
+    <nav className="p-2 bg-gradient-to-r from-accent to-secondary" >
       <div className="max-w-7xl mx-auto p-2 flex justify-between items-center ">
         {/* first part */}
         <div className="flex p-2 items-center relative z-0">
           <RiMenu2Fill
             onClick={() => setOpen(!open)}
-            className="md:hidden cursor-pointer  text-4xl text-primary"
+            className="lg:hidden cursor-pointer  text-4xl text-primary"
           />
           <div className="mx-auto">
            <img
@@ -60,7 +60,7 @@ const Header = () => {
           )}
         </div>
         {/* second part */}
-        <ul className="hidden md:flex font-semibold space-x-6">
+        <ul className="hidden lg:flex font-semibold space-x-6">
           <li className="hover:text-primary cursor-pointer transition-all delay-100 duration-300">
             <span className="flex justify-center items-center">
               Home <BiChevronDown className="text-xl" />

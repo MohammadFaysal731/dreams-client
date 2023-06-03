@@ -1,12 +1,13 @@
+import { AiFillStar } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-r md:from-accent md:to-secondary">
-      <div className="max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
+    <div className="z-0 bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary">
+      <div className="place-items-center max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
         {/* left */}
-        <div className="md:mt-28 mt-10 mb-5">
+        <div className="md:mt-28 m-5">
           <p className="mb-4 text-sm md:text-lg text-secondary-focus font-medium">
             The Leader in Online Learning
           </p>
@@ -45,13 +46,26 @@ const Banner = () => {
           <p className="text-sm md:text-lg text-secondary-focus font-medium">
             worldwide since 2022
           </p>
+          <div className="flex mb-32 mt-5">
+            <div className="text-3xl font-bold whitespace-nowrap">1000+</div>
+            <div className="text-3xl font-bold mx-3 flex items-center">
+              <span className="">4.4</span>
+              <span className="mx-2 flex space-x-3" style={{ color: "#FFB800" }}>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </span>
+            </div>
+          </div>
         </div>
         {/* right */}
-        <div className="">
+        <div className="mb-16 mt-14">
           <img
             src="https://dreamslms.dreamguystech.com/html/assets/img/object.png"
             alt="banner-image"
-            className="w-[98%] md:w-[80%] lg:w-full mx-auto"
+            className="w-full md:w-[90%] mx-auto"
           />
         </div>
       </div>
