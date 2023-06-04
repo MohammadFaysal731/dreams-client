@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   font-family: Inter, sans-serif;
   line-height: 1.5;
@@ -18,8 +17,8 @@
   -webkit-text-size-adjust: 100%;
 }
 ::selection {
-  background-color: #ade1f5;
-  color: white;
+  background-color: "#413655";
+  color: "#ade1f5";
 }
 
 /* 

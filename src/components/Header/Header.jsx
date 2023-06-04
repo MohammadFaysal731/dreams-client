@@ -4,12 +4,10 @@ const Header = () => {
  
   return (
     <nav className="p-2 bg-gradient-to-r from-accent to-secondary">
-      <div className="max-w-7xl mx-auto p-2 flex justify-between items-center ">
+      <div className="max-w-[1440px] mx-auto p-2 flex justify-between items-center ">
         {/* first part */}
         <div className="flex p-2 items-center relative z-0">
-          <RiMenu2Fill
-            className="lg:hidden cursor-pointer  text-4xl text-primary"
-          />
+          <RiMenu2Fill className="lg:hidden cursor-pointer  text-4xl text-primary" />
           <div className="">
             <img
               src="https://dreamslms.dreamguystech.com/html/assets/img/logo.svg"

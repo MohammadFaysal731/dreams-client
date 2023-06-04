@@ -1,6 +1,7 @@
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsFillStopwatchFill, BsStarFill } from "react-icons/bs";
-const FeaturedCourse = () => {
+
+const TrendingCourses = () => {
   return (
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
       <div className="max-w-[1440px] mx-auto p-3">
@@ -11,7 +12,7 @@ const FeaturedCourse = () => {
             <h3 className="mt-10 mb-2 text-md text-primary md:text-xl font-bold">
               What’s New
             </h3>
-            <h1 className="mb-2 text-4xl font-bold">Featured Courses</h1>
+            <h1 className="mb-2 text-4xl font-bold">TRENDING COURSES</h1>
             <button className="md:hidden whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-3 py-1 rounded-full m-2">
               All Categories
             </button>
@@ -33,19 +34,19 @@ const FeaturedCourse = () => {
         {/* second part */}
         <div className="">
           {/* courses container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
             {/* courses 1*/}
             <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
               <figure className="px-4 pt-4 relative">
                 <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-01.jpg"
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-07.jpg"
                   alt="cursor"
                   className="overflow-auto cursor-pointer rounded-xl "
                 />
                 <span className="flex">
                   <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
                     <span className="text-2xl text-primary font-bold">
-                      $ 300
+                      $ 200
                     </span>
                     <sub>
                       <del
@@ -65,14 +66,14 @@ const FeaturedCourse = () => {
                       <div className="border rounded-full w-12">
                         <span>
                           <img
-                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user1.jpg"
+                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user.jpg"
                             alt="instructor"
                           />
                         </span>
                       </div>
                     </div>
                     <div className="mx-4">
-                      <h2 className="text-lg font-semibold">Nicole Brown</h2>
+                      <h2 className="text-lg font-semibold">John Michael</h2>
                       <p className="text-sm font-medium">Instructor</p>
                     </div>
                   </div>
@@ -81,7 +82,8 @@ const FeaturedCourse = () => {
                   </div>
                 </div>
                 <p className="py-3 text-[16px] font-semibold">
-                  Information About UI/UX Design Degree
+                  Learn JavaScript and Express to become a professional
+                  JavaScript
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center">
@@ -91,13 +93,13 @@ const FeaturedCourse = () => {
                         alt="book"
                       />
                     </span>
-                    <span>12+ Lesson</span>
+                    <span>13+ Lesson</span>
                   </div>
                   <div className="flex items-center">
                     <span className="text-white">
                       <BsFillStopwatchFill className="me-2 text-primary" />
                     </span>
-                    <span>9hr 30min</span>
+                    <span>10hr 30min</span>
                   </div>
                 </div>
                 <hr />
@@ -110,7 +112,7 @@ const FeaturedCourse = () => {
                   <BsStarFill className="text-gray-500" />
                   <span className="mx-2" style={{ color: "#FFB800" }}>
                     4.0{" "}
-                  </span>{" "}
+                  </span>
                   &nbsp;(15)
                 </div>
                 <div className="">
@@ -124,14 +126,14 @@ const FeaturedCourse = () => {
             <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
               <figure className="px-4 pt-4 relative">
                 <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-02.jpg"
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-08.jpg"
                   alt="course"
                   className="rounded-xl"
                 />
                 <span className="flex">
                   <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
                     <span className="text-2xl text-primary font-bold">
-                      $ 400
+                      $ 300
                     </span>
                     <sub>
                       <del
@@ -158,7 +160,7 @@ const FeaturedCourse = () => {
                       </div>
                     </div>
                     <div className="mx-4">
-                      <h2 className="text-lg font-semibold">Jenis R.</h2>
+                      <h2 className="text-lg font-semibold">John Smith</h2>
                       <p className="text-sm font-medium">Instructor</p>
                     </div>
                   </div>
@@ -167,168 +169,7 @@ const FeaturedCourse = () => {
                   </div>
                 </div>
                 <p className="py-3 text-[16px] font-semibold">
-                  Wordpress for Beginners - Master Wordpress Quickly
-                </p>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center">
-                    <span>
-                      <img
-                        src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-01.svg"
-                        alt="book"
-                      />
-                    </span>
-                    <span>11+ Lesson</span>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="text-white">
-                      <BsFillStopwatchFill className="me-2 text-primary" />
-                    </span>
-                    <span>6hr 30min</span>
-                  </div>
-                </div>
-                <hr />
-                <div className="flex items-center space-x-2">
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill className="text-gray-500" />
-                  <span className="mx-2" style={{ color: "#FFB800" }}>
-                    4.3{" "}
-                  </span>{" "}
-                  &nbsp;(15)
-                </div>
-                <div className="">
-                  <button className="whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
-                    BUY NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-            {/* courses 3*/}
-            <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
-              <figure className="px-4 pt-4 relative">
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-03.jpg"
-                  alt="Shoes"
-                  className="rounded-xl"
-                />
-                <span className="flex">
-                  <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
-                    <span className="text-2xl text-green-500 font-bold">
-                      FREE
-                    </span>
-                  </h2>
-                </span>
-              </figure>
-              <div className="card-body">
-                <div className="flex justify-between items-center">
-                  <div className="flex">
-                    <div className="avatar placeholder">
-                      <div className="border rounded-full w-12">
-                        <span>
-                          <img
-                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user5.jpg"
-                            alt="instructor"
-                          />
-                        </span>
-                      </div>
-                    </div>
-                    <div className="mx-4">
-                      <h2 className="text-lg font-semibold">Jesse Stevens</h2>
-                      <p className="text-sm font-medium">Instructor</p>
-                    </div>
-                  </div>
-                  <div>
-                    <AiOutlineHeart className="text-2xl text-primary" />
-                  </div>
-                </div>
-                <p className="py-3 text-[16px] font-semibold">
-                  Sketch from A to Z (2022): Become an app designer
-                </p>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center">
-                    <span>
-                      <img
-                        src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-01.svg"
-                        alt="book"
-                      />
-                    </span>
-                    <span>16+ Lesson</span>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="text-white">
-                      <BsFillStopwatchFill className="me-2 text-primary" />
-                    </span>
-                    <span>12hr 30min</span>
-                  </div>
-                </div>
-                <hr />
-                <div className="flex items-center space-x-2">
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill style={{ color: "#FFB800" }} />
-                  <BsStarFill className="text-gray-500" />
-                  <span className="mx-2">4.5 </span> &nbsp;(15)
-                </div>
-                <div className="">
-                  <button className="whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
-                    BUY NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-            {/* courses 4*/}
-            <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
-              <figure className="px-4 pt-4 relative">
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-04.jpg"
-                  alt="courses"
-                  className="rounded-xl"
-                />
-                <span className="flex">
-                  <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
-                    <span className="text-2xl text-primary font-bold">
-                      $ 500
-                    </span>
-                    <sub>
-                      <del
-                        className="mx-4 font-bold text-sm"
-                        style={{ color: "#8B8B8B" }}
-                      >
-                        $99.00
-                      </del>
-                    </sub>
-                  </h2>
-                </span>
-              </figure>
-              <div className="card-body">
-                <div className="flex justify-between items-center">
-                  <div className="flex">
-                    <div className="avatar placeholder">
-                      <div className="border rounded-full w-12">
-                        <span>
-                          <img
-                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user4.jpg"
-                            alt="instructor"
-                          />
-                        </span>
-                      </div>
-                    </div>
-                    <div className="mx-4">
-                      <h2 className="text-lg font-semibold">Nicole Brown</h2>
-                      <p className="text-sm font-medium">Instructor</p>
-                    </div>
-                  </div>
-                  <div>
-                    <AiOutlineHeart className="text-2xl text-primary" />
-                  </div>
-                </div>
-                <p className="py-3 text-[16px] font-semibold">
-                  Learn Angular Fundamentals From beginning to advance lavel{" "}
+                  Responsive Web Design Essential HTML5 CSS3 and Bootstrap{" "}
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center">
@@ -344,7 +185,7 @@ const FeaturedCourse = () => {
                     <span className="text-white">
                       <BsFillStopwatchFill className="me-2 text-primary" />
                     </span>
-                    <span>8hr 30min</span>
+                    <span>11hr 30min</span>
                   </div>
                 </div>
                 <hr />
@@ -355,7 +196,10 @@ const FeaturedCourse = () => {
                   <BsStarFill style={{ color: "#FFB800" }} />
                   <BsStarFill style={{ color: "#FFB800" }} />
                   <BsStarFill className="text-gray-500" />
-                  <span className="mx-2">4.2 </span> &nbsp;(15)
+                  <span className="mx-2" style={{ color: "#FFB800" }}>
+                    4.0
+                  </span>
+                  &nbsp;(15)
                 </div>
                 <div className="">
                   <button className="whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
@@ -364,7 +208,7 @@ const FeaturedCourse = () => {
                 </div>
               </div>
             </div>
-            {/* courses 5*/}
+            {/* courses 3*/}
             <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
               <figure className="px-4 pt-4 relative">
                 <img
@@ -447,6 +291,164 @@ const FeaturedCourse = () => {
                 </div>
               </div>
             </div>
+            {/* courses 4*/}
+            <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <figure className="px-4 pt-4 relative">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-03.jpg"
+                  alt="Shoes"
+                  className="rounded-xl"
+                />
+                <span className="flex">
+                  <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
+                    <span className="text-2xl text-green-500 font-bold">
+                      FREE
+                    </span>
+                  </h2>
+                </span>
+              </figure>
+              <div className="card-body">
+                <div className="flex justify-between items-center">
+                  <div className="flex">
+                    <div className="avatar placeholder">
+                      <div className="border rounded-full w-12">
+                        <span>
+                          <img
+                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user5.jpg"
+                            alt="instructor"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="mx-4">
+                      <h2 className="text-lg font-semibold">Jesse Stevens</h2>
+                      <p className="text-sm font-medium">Instructor</p>
+                    </div>
+                  </div>
+                  <div>
+                    <AiOutlineHeart className="text-2xl text-primary" />
+                  </div>
+                </div>
+                <p className="py-3 text-[16px] font-semibold">
+                  Sketch from A to Z (2022): Become an app designer
+                </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex items-center">
+                    <span>
+                      <img
+                        src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-01.svg"
+                        alt="book"
+                      />
+                    </span>
+                    <span>13+ Lesson</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="text-white">
+                      <BsFillStopwatchFill className="me-2 text-primary" />
+                    </span>
+                    <span>10hr 30min</span>
+                  </div>
+                </div>
+                <hr />
+                <div className="flex items-center space-x-2">
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill className="text-gray-500" />
+                  <span className="mx-2">4.5 </span> &nbsp;(15)
+                </div>
+                <div className="">
+                  <button className="whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
+                    BUY NOW
+                  </button>
+                </div>
+              </div>
+            </div>
+            {/* courses 5*/}
+            <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <figure className="px-4 pt-4 relative">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-09.jpg"
+                  alt="courses"
+                  className="rounded-xl"
+                />
+                <span className="flex">
+                  <h2 className="bottom-8 right-8 absolute bg-neutral-focus p-2  rounded-xl">
+                    <span className="text-2xl text-primary font-bold">
+                      $ 100
+                    </span>
+                    <sub>
+                      <del
+                        className="mx-4 font-bold text-sm"
+                        style={{ color: "#8B8B8B" }}
+                      >
+                        $99.00
+                      </del>
+                    </sub>
+                  </h2>
+                </span>
+              </figure>
+              <div className="card-body">
+                <div className="flex justify-between items-center">
+                  <div className="flex">
+                    <div className="avatar placeholder">
+                      <div className="border rounded-full w-12">
+                        <span>
+                          <img
+                            src="https://dreamslms.dreamguystech.com/html/assets/img/user/user4.jpg"
+                            alt="instructor"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="mx-4">
+                      <h2 className="text-lg font-semibold">Nicole Brown</h2>
+                      <p className="text-sm font-medium">Instructor</p>
+                    </div>
+                  </div>
+                  <div>
+                    <AiOutlineHeart className="text-2xl text-primary" />
+                  </div>
+                </div>
+                <p className="py-3 text-[16px] font-semibold">
+                  The Complete App Design Course -UX, UI and Design Thinking
+                </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex items-center">
+                    <span>
+                      <img
+                        src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-01.svg"
+                        alt="book"
+                      />
+                    </span>
+                    <span>8+ Lesson</span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="text-white">
+                      <BsFillStopwatchFill className="me-2 text-primary" />
+                    </span>
+                    <span>8hr 30min</span>
+                  </div>
+                </div>
+                <hr />
+                <div className="flex items-center space-x-2">
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill style={{ color: "#FFB800" }} />
+                  <BsStarFill className="text-gray-500" />
+                  <span className="mx-2">4.2 </span> &nbsp;(15)
+                </div>
+                <div className="">
+                  <button className="whitespace-nowrap transition-all delay-100 duration-300 font-semibold border-2 border-primary-focus hover:text-white hover:bg-primary-focus  px-6 py-3 rounded-full">
+                    BUY NOW
+                  </button>
+                </div>
+              </div>
+            </div>
             {/* courses 6*/}
             <div className="max-w-md md:max-w-xs lg:max-w-lg hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
               <figure className="px-4 pt-4 relative">
@@ -486,7 +488,7 @@ const FeaturedCourse = () => {
                   </div>
                 </div>
                 <p className="py-3 text-[16px] font-semibold">
-                  C# Developers Double Your Coding Speed with Visual Studio{" "}
+                  .Net Developers Double Your Coding Speed with Visual Studio{" "}
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center">
@@ -529,4 +531,4 @@ const FeaturedCourse = () => {
   );
 };
 
-export default FeaturedCourse;
+export default TrendingCourses;

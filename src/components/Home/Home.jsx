@@ -3,6 +3,7 @@ import Career from "./Career";
 import FavoriteCourse from "./FavoriteCourse";
 import FeaturedCourse from "./FeaturedCourse";
 import OfficeAssets from "./OfficeAssets";
+import TrendingCourses from "./TrendingCourses";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <FavoriteCourse/>
       <FeaturedCourse/>
       <Career/>
+      <TrendingCourses/>
     </div>
   );
 };

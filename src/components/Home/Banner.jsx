@@ -5,7 +5,7 @@ import { FiSearch } from "react-icons/fi";
 const Banner = () => {
   return (
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary">
-      <div className=" max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
+      <div className="max-w-[1440px] mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
         {/* left */}
         <div className="md:mt-28 m-5">
           <p className="mb-4 text-sm md:text-[16px] text-secondary-focus font-medium">

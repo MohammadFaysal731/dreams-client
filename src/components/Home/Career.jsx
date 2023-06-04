@@ -1,7 +1,7 @@
 const Career = () => {
   return (
-    <div className="max-w-7xl mx-auto p-3">
-      <div className="grid lg:grid-cols-2">
+    <div className="max-w-[1440px] mx-auto p-3 m-16">
+      <div className="grid lg:grid-cols-2 gap-5 ">
         {/* left  */}
         <div className="">
           {/* first content  */}
@@ -25,7 +25,7 @@ const Career = () => {
           {/* second content */}
           <div className="grid grid-cols-1 md:grid-cols-2 mt-14 gap-5">
             {/* item 1 */}
-            <div className="border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-1.svg"
@@ -38,7 +38,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 2 */}
-            <div className="border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-2.svg"
@@ -51,7 +51,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 3 */}
-            <div className="border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-2.svg"
@@ -64,7 +64,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 4 */}
-            <div className="border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-4.svg"
@@ -79,11 +79,11 @@ const Career = () => {
           </div>
         </div>
         {/* right */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block relative">
           <img
             src="https://dreamslms.dreamguystech.com/html/assets/img/join.png"
             alt="banner"
-            className="w-[80%] mt-36  mx-16"
+            className="absolute top-[60px] left-[70px]  w-[80%]"
           />
         </div>
       </div>

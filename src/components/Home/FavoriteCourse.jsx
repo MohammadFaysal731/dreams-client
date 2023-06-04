@@ -1,8 +1,8 @@
 const FavoriteCourse = () => {
   return (
-    <div className="max-w-7xl mx-auto p-3 mb-24">
+    <div className="max-w-[1440px] mx-auto mb-24">
       {/* first part  */}
-      <div className="flex justify-between items-center">
+      <div className=" p-3 flex justify-between items-center">
         {/* left  */}
         <div className="">
           <h3 className="mt-10 mb-2 text-sm text-primary md:text-xl font-bold">
@@ -31,7 +31,7 @@ const FavoriteCourse = () => {
       <div className="mt-24">
         {/* course container */}
         {/* course car 1 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
           {/* course 1 */}
           <div className="card max-w-md md:max-w-xs border hover:bg-accent-focus transition-all duration-700">
             <figure className="px-10 pt-10">
