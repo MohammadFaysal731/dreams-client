@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import Career from "./Career";
 import FavoriteCourse from "./FavoriteCourse";
 import FeaturedCourse from "./FeaturedCourse";
+import Instructor from "./Instructor";
 import OfficeAssets from "./OfficeAssets";
 import TrendingCourses from "./TrendingCourses";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <FeaturedCourse/>
       <Career/>
       <TrendingCourses/>
+      <Instructor/>
     </div>
   );
 };

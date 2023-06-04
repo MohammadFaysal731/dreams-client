@@ -26,6 +26,8 @@ export default {
 
           warning: "#FFE88F",
 
+          "waring-content": "#BEBAC5",
+
           info: "#DFF1FD",
 
           success: "#BCD2F7",
