@@ -1,11 +1,11 @@
 const FavoriteCourse = () => {
   return (
-    <div className="max-w-7xl mx-auto p-3">
+    <div className="max-w-7xl mx-auto p-3 mb-24">
       {/* first part  */}
-      <div className="flex">
+      <div className="flex justify-between items-center">
         {/* left  */}
         <div className="">
-          <h3 className="mb-2 text-primary text-xl font-bold">
+          <h3 className="mt-10 mb-2 text-sm text-primary md:text-xl font-bold">
             Favourite Course
           </h3>
           <h1 className="mb-2 text-4xl font-bold">Top Category</h1>

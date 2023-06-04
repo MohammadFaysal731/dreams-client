@@ -8,12 +8,12 @@ const Banner = () => {
       <div className=" max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2">
         {/* left */}
         <div className="md:mt-28 m-5">
-          <p className="mb-4 text-sm md:text-lg text-secondary-focus font-medium">
+          <p className="mb-4 text-sm md:text-[16px] text-secondary-focus font-medium">
             The Leader in Online Learning
           </p>
           <h1 className="text-3xl font-bold">Engaging & Accessible Online</h1>
           <h1 className="text-3xl font-bold">Courses For All</h1>
-          <p className="mt-4 text-sm md:text-lg text-secondary-focus font-medium">
+          <p className="mt-4 text-sm md:text-[16px] text-secondary-focus font-medium">
             Own your future learning new skills online
           </p>
           {/* search part */}
@@ -39,10 +39,10 @@ const Banner = () => {
               <BsFillArrowRightCircleFill className="text-primary text-3xl md:text-4xl cursor-pointer" />
             </div>
           </div>
-          <p className="text-sm md:text-lg mt-3 text-secondary-focus font-medium">
+          <p className="text-sm md:text-[16px] mt-3 text-secondary-focus font-medium">
             Trusted by over 15K Users
           </p>
-          <p className="text-sm md:text-lg text-secondary-focus font-medium">
+          <p className="text-sm md:text-[16px] text-secondary-focus font-medium">
             worldwide since 2022
           </p>
           <div className="flex mb-32 mt-5">

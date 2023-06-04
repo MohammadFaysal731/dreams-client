@@ -22,6 +22,8 @@ export default {
 
           neutral: "#F38681",
 
+          "neutral-focus": "#EEE6EC",
+
           warning: "#FFE88F",
 
           info: "#DFF1FD",
