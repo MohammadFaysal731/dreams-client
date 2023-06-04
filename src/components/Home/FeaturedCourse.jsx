@@ -2,8 +2,8 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { BsFillStopwatchFill, BsStarFill } from "react-icons/bs";
 const FeaturedCourse = () => {
   return (
-    <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pb-24">
-      <div className="max-w-7xl mx-auto p-3 ">
+    <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
+      <div className="max-w-7xl mx-auto p-3">
         {/* first part  */}
         <div className="flex justify-between items-center">
           {/* left  */}
