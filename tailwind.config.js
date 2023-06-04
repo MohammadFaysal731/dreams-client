@@ -18,6 +18,8 @@ export default {
 
           accent: "#FDE0DE",
 
+          "accent-focus": "#413655",
+
           neutral: "#F38681",
 
           warning: "#FFE88F",

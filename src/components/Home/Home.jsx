@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import FavoriteCourse from "./FavoriteCourse";
 import OfficeAssets from "./OfficeAssets";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Banner/>
       <OfficeAssets/>
+      <FavoriteCourse/>
     </div>
   );
 };
