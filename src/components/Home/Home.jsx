@@ -22,6 +22,7 @@ const Home = () => {
       <Instructor/>
       <Trusted/>
       <ShareYourKnowledge/>
+      {/* <Reviews/> */}
       <LatesBlogs/>
     </div>
   );

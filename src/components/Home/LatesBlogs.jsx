@@ -1,5 +1,9 @@
 import { BiCalendar } from "react-icons/bi";
-
+import { Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 const LatesBlogs = () => {
   return (
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
@@ -16,88 +20,159 @@ const LatesBlogs = () => {
           </p>
         </div>
         {/* second part */}
-        <div className="">
-          {/* blogs container  */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {/* blog 1 */}
-            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
-                  alt="blog"
-                  className="rounded-t w-full"
-                />
-              </figure>
-              <div className="card-body items-center text-center">
-                <h2 className="card-title">
-                  Attract Attention Sales And Profits
-                </h2>
-                <h4 className="text-warning-content font-medium">Marking</h4>
-                <span className="flex items-center">
-                  <BiCalendar className="text-lg text-primary me-3" />
-                  <p className="text-sm font-medium ">Jun 15, 2022</p>
-                </span>
+        <div className="cursor-pointer">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              "@0.75": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@1.00": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.50": {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
+            }}
+            modules={[Pagination]}
+            className="place-items-center"
+          >
+            <SwiperSlide className="mb-12">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">
+                    Attract Attention Sales And Profits
+                  </h2>
+                  <h4 className="text-warning-content font-medium">Marking</h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary me-3" />
+                    <p className="text-sm font-medium ">Jun 15, 2022</p>
+                  </span>
+                </div>
               </div>
-            </div>
-            {/* blog 2 */}
-            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
-                  alt="blog"
-                  className="rounded-t w-full"
-                />
-              </figure>
-              <div className="card-body items-center text-center">
-                <h2 className="card-title">
-                  11 Tips to Help You Get New Clients
-                </h2>
-                <h4 className="text-warning-content font-medium">
-                  Sales Order
-                </h4>
-                <span className="flex items-center">
-                  <BiCalendar className="text-lg text-primary  me-3" />
-                  <p className="text-sm font-medium ">May 20,2022</p>
-                </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">
+                    11 Tips to Help You Get New Clients
+                  </h2>
+                  <h4 className="text-warning-content font-medium">
+                    Sales Order
+                  </h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary  me-3" />
+                    <p className="text-sm font-medium ">May 20,2022</p>
+                  </span>
+                </div>
               </div>
-            </div>
-            {/* blog 3 */}
-            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-03.jpg"
-                  alt="blog"
-                  className="rounded-t w-full"
-                />
-              </figure>
-              <div className="card-body items-center text-center">
-                <h2 className="card-title">An Overworked Newspaper Editor</h2>
-                <h4 className="text-warning-content font-medium">Design</h4>
-                <span className="flex items-center">
-                  <BiCalendar className="text-lg text-primary me-3" />
-                  <p className="text-sm font-medium ">May 25, 2022</p>
-                </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-03.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">An Overworked Newspaper Editor</h2>
+                  <h4 className="text-warning-content font-medium">Design</h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary me-3" />
+                    <p className="text-sm font-medium ">May 25, 2022</p>
+                  </span>
+                </div>
               </div>
-            </div>
-            {/* blog 4 */}
-            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-04.jpg"
-                  alt="blog"
-                  className="rounded-t w-full"
-                />
-              </figure>
-              <div className="card-body items-center text-center">
-                <h2 className="card-title">A Solution Buit for Teacher</h2>
-                <h4 className="text-warning-content font-medium">Seo</h4>
-                <span className="flex items-center">
-                  <BiCalendar className="text-lg text-primary me-3" />
-                  <p className="text-sm font-medium ">Jul 15, 2022</p>
-                </span>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-04.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">
+                    A Solution Buit for &nbsp; &nbsp; &nbsp; Teacher
+                  </h2>
+                  <h4 className="text-warning-content font-medium">Seo</h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary me-3" />
+                    <p className="text-sm font-medium ">Jul 15, 2022</p>
+                  </span>
+                </div>
               </div>
-            </div>
-          </div>
+            </SwiperSlide>
+            <SwiperSlide className="mb-12">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">
+                    Attract Attention Sales And Profits
+                  </h2>
+                  <h4 className="text-warning-content font-medium">Marking</h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary me-3" />
+                    <p className="text-sm font-medium ">Jun 15, 2022</p>
+                  </span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
+                    alt="blog"
+                    className="rounded-t w-full"
+                  />
+                </figure>
+                <div className="card-body items-center text-center">
+                  <h2 className="text-xl">
+                    11 Tips to Help You Get New Clients
+                  </h2>
+                  <h4 className="text-warning-content font-medium">
+                    Sales Order
+                  </h4>
+                  <span className="flex items-center">
+                    <BiCalendar className="text-lg text-primary  me-3" />
+                    <p className="text-sm font-medium ">May 20,2022</p>
+                  </span>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
         {/* third part */}
         <div className="mt-28">
@@ -262,3 +337,86 @@ const LatesBlogs = () => {
 };
 
 export default LatesBlogs;
+{
+  /* blogs container  */
+}
+// <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+//   {/* blog 1 */}
+//   <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+//     <figure>
+//       <img
+//         src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
+//         alt="blog"
+//         className="rounded-t w-full"
+//       />
+//     </figure>
+//     <div className="card-body items-center text-center">
+//       <h2 className="card-title">
+//         Attract Attention Sales And Profits
+//       </h2>
+//       <h4 className="text-warning-content font-medium">Marking</h4>
+//       <span className="flex items-center">
+//         <BiCalendar className="text-lg text-primary me-3" />
+//         <p className="text-sm font-medium ">Jun 15, 2022</p>
+//       </span>
+//     </div>
+//   </div>
+//   {/* blog 2 */}
+//   <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+//     <figure>
+//       <img
+//         src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
+//         alt="blog"
+//         className="rounded-t w-full"
+//       />
+//     </figure>
+//     <div className="card-body items-center text-center">
+//       <h2 className="card-title">
+//         11 Tips to Help You Get New Clients
+//       </h2>
+//       <h4 className="text-warning-content font-medium">
+//         Sales Order
+//       </h4>
+//       <span className="flex items-center">
+//         <BiCalendar className="text-lg text-primary  me-3" />
+//         <p className="text-sm font-medium ">May 20,2022</p>
+//       </span>
+//     </div>
+//   </div>
+//   {/* blog 3 */}
+//   <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+//     <figure>
+//       <img
+//         src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-03.jpg"
+//         alt="blog"
+//         className="rounded-t w-full"
+//       />
+//     </figure>
+//     <div className="card-body items-center text-center">
+//       <h2 className="card-title">An Overworked Newspaper Editor</h2>
+//       <h4 className="text-warning-content font-medium">Design</h4>
+//       <span className="flex items-center">
+//         <BiCalendar className="text-lg text-primary me-3" />
+//         <p className="text-sm font-medium ">May 25, 2022</p>
+//       </span>
+//     </div>
+//   </div>
+//   {/* blog 4 */}
+//   <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+//     <figure>
+//       <img
+//         src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-04.jpg"
+//         alt="blog"
+//         className="rounded-t w-full"
+//       />
+//     </figure>
+//     <div className="card-body items-center text-center">
+//       <h2 className="card-title">A Solution Buit for Teacher</h2>
+//       <h4 className="text-warning-content font-medium">Seo</h4>
+//       <span className="flex items-center">
+//         <BiCalendar className="text-lg text-primary me-3" />
+//         <p className="text-sm font-medium ">Jul 15, 2022</p>
+//       </span>
+//     </div>
+//   </div>
+// </div>
