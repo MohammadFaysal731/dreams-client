@@ -29,23 +29,23 @@ const LatesBlogs = () => {
             }}
             breakpoints={{
               "@0.75": {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 10,
               },
               "@1.00": {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 10,
               },
               "@1.50": {
                 slidesPerView: 4,
-                spaceBetween: 20,
+                spaceBetween: 10,
               },
             }}
             modules={[Pagination]}
             className="place-items-center"
           >
             <SwiperSlide className="mb-12">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
@@ -66,7 +66,7 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
@@ -89,7 +89,7 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-03.jpg"
@@ -108,7 +108,7 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-04.jpg"
@@ -129,7 +129,7 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
@@ -150,7 +150,7 @@ const LatesBlogs = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="card lg:max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
@@ -186,12 +186,12 @@ const LatesBlogs = () => {
                 />
               </div>
               <div>
-                <div className="text-4xl font-bold">253,085</div>
-                <div className="text-lg mt-3">STUDENTS ENROLLED</div>
+                <div className="text-xl lg:text-4xl  font-bold">253,085</div>
+                <div className="text-sm lg:text-lg mt-3">STUDENTS ENROLLED</div>
               </div>
             </div>
             {/* item 2 */}
-            <div className="flex items-center">
+            <div className="flex justify-center items-center">
               <div className="bg-white me-3 rounded-xl p-2">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-08.svg"
@@ -199,8 +199,8 @@ const LatesBlogs = () => {
                 />
               </div>
               <div>
-                <div className="text-4xl font-bold">1,205</div>
-                <div className="text-lg mt-3">TOTAL COURSES</div>
+                <div className="text-xl lg:text-4xl font-bold">1,205</div>
+                <div className="text-sm lg:text-lg mt-3">TOTAL COURSES</div>
               </div>
             </div>
             {/* item 3 */}
@@ -212,8 +212,8 @@ const LatesBlogs = () => {
                 />
               </div>
               <div>
-                <div className="text-4xl font-bold">127</div>
-                <div className="text-lg mt-3">COUNTRIES</div>
+                <div className="text-xl lg:text-4xl font-bold">127</div>
+                <div className="text-sm lg:text-lg mt-3">COUNTRIES</div>
               </div>
             </div>
           </div>

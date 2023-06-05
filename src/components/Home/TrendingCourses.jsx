@@ -45,12 +45,12 @@ const TrendingCourses = () => {
             }}
             breakpoints={{
               "@0.75": {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 10,
               },
               "@1.00": {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 10,
               },
               "@1.50": {
                 slidesPerView: 3,
@@ -61,7 +61,7 @@ const TrendingCourses = () => {
             className="place-items-center"
           >
             <SwiperSlide className="mb-12">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-07.jpg"
@@ -149,7 +149,7 @@ const TrendingCourses = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-08.jpg"
@@ -236,7 +236,7 @@ const TrendingCourses = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-05.jpg"
@@ -320,7 +320,7 @@ const TrendingCourses = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-03.jpg"
@@ -396,7 +396,7 @@ const TrendingCourses = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-09.jpg"
@@ -480,7 +480,7 @@ const TrendingCourses = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="">
-              <div className="lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
+              <div className="max-w-md md:max-w-xs lg:max-w-md hover:bg-accent-focus hover:text-white hover:transition-all hover:duration-700 mt-14 rounded-xl w-96 bg-base-100 shadow-xl">
                 <figure className="px-4 pt-4 relative">
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/course/course-06.jpg"

@@ -29,12 +29,12 @@ const Instructor = () => {
             }}
             breakpoints={{
               "@0.75": {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 10,
               },
               "@1.00": {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 10,
               },
               "@1.50": {
                 slidesPerView: 4,
@@ -45,7 +45,7 @@ const Instructor = () => {
             className="place-items-center"
           >
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user7.jpg"
@@ -66,7 +66,7 @@ const Instructor = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user8.jpg"
@@ -87,7 +87,7 @@ const Instructor = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user9.jpg"
@@ -108,7 +108,7 @@ const Instructor = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user10.jpg"
@@ -129,7 +129,7 @@ const Instructor = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user8.jpg"
@@ -150,7 +150,7 @@ const Instructor = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="mb-12">
-              <div className="card max-w-md bg-base-100 shadow-xl">
+              <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
                 <figure>
                   <img
                     src="https://dreamslms.dreamguystech.com/html/assets/img/user/user9.jpg"
