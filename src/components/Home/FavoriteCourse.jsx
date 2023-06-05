@@ -1,8 +1,8 @@
 const FavoriteCourse = () => {
   return (
-    <div className="max-w-[1440px] mx-auto mb-24">
+    <div className="max-w-[1440px] mx-auto mb-24 p-3">
       {/* first part  */}
-      <div className=" p-3 flex justify-between items-center">
+      <div className="p-3 flex justify-between items-center">
         {/* left  */}
         <div className="">
           <h3 className="mt-10 mb-2 text-sm text-primary md:text-xl font-bold">

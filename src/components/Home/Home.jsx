@@ -5,7 +5,9 @@ import FeaturedCourse from "./FeaturedCourse";
 import Instructor from "./Instructor";
 import LatesBlogs from "./LatesBlogs";
 import OfficeAssets from "./OfficeAssets";
+import ShareYourKnowledge from "./ShareYourKnowledge";
 import TrendingCourses from "./TrendingCourses";
+import Trusted from "./Trusted";
 
 
 const Home = () => {
@@ -18,6 +20,8 @@ const Home = () => {
       <Career/>
       <TrendingCourses/>
       <Instructor/>
+      <Trusted/>
+      <ShareYourKnowledge/>
       <LatesBlogs/>
     </div>
   );

@@ -5,7 +5,7 @@ const LatesBlogs = () => {
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
       <div className=" max-w-[1440px] mx-auto p-3 ">
         {/* first part */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-8">Latest Blogs</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
@@ -17,7 +17,7 @@ const LatesBlogs = () => {
         </div>
         {/* second part */}
         <div className="">
-          {/* first container  */}
+          {/* blogs container  */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {/* blog 1 */}
             <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
@@ -98,7 +98,9 @@ const LatesBlogs = () => {
               </div>
             </div>
           </div>
-          {/* second container */}
+        </div>
+        {/* third part */}
+        <div className="mt-28">
           <div className="grid grid-cols-1 md:grid-cols-3  space-y-5 bg-gradient-to-r from-success to-info p-10 shadow-xl mt-8 rounded-3xl">
             {/* item 1 */}
             <div className="flex items-center">
@@ -140,116 +142,116 @@ const LatesBlogs = () => {
               </div>
             </div>
           </div>
-          {/* third container */}
-          <div className="">
-            {/* first content */}
-            <div className="text-center m-14">
-              <h1 className="text-4xl font-bold">
-                Unlimited access to 360+ courses
-              </h1>
-              <h1 className="text-4xl font-bold"> and 1,600+ hands-on labs</h1>
+        </div>
+        {/* fourth part */}
+        <div className="">
+          {/* first content */}
+          <div className="text-center m-14">
+            <h1 className="text-4xl font-bold">
+              Unlimited access to 360+ courses
+            </h1>
+            <h1 className="text-4xl font-bold"> and 1,600+ hands-on labs</h1>
+          </div>
+          {/* second content */}
+          <div className="cursor-pointer  place-items-center grid grid-cols-4 gap-5 lg:flex lg:justify-center lg:items-center lg:space-x-8">
+            {/* item 1 */}
+            <div className="flex">
+              <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
+                  alt="countries"
+                  className="w-14"
+                />
+              </div>
             </div>
-            {/* second content */}
-            <div className="cursor-pointer  place-items-center grid grid-cols-4 gap-5 lg:flex lg:justify-center lg:items-center lg:space-x-8">
-              {/* item 1 */}
-              <div className="flex">
-                <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            {/* item 2 */}
+            <div className="flex">
+              <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-10.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 2 */}
-              <div className="flex">
-                <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-10.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 3 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 3 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 4 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-12.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 4 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-12.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 5 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-13.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 5 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-13.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 6 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-14.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 6 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-14.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 7 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-15.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 7 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-15.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 8 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 8 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 9 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-17.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
-              {/* item 9 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-17.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
-              </div>
-              {/* item 10 */}
-              <div className="flex">
-                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
-                  <img
-                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-18.svg"
-                    alt="countries"
-                    className="w-14"
-                  />
-                </div>
+            </div>
+            {/* item 10 */}
+            <div className="flex">
+              <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-18.svg"
+                  alt="countries"
+                  className="w-14"
+                />
               </div>
             </div>
           </div>
