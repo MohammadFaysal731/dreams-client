@@ -4,7 +4,7 @@ const ShareYourKnowledge = () => {
     <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-secondary lg:to-accent">
       <div className="max-w-[1440px] mx-auto p-3">
         {/* container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center pt-12">
           {/* left  */}
           <div className="">
             <img
