@@ -30,7 +30,11 @@ export default {
 
           info: "#DFF1FD",
 
+          "info-content": "#FFB54A",
+
           success: "#BCD2F7",
+
+          "success-content": "#FF875A",
 
           "base-100": "#ffffff",
         },

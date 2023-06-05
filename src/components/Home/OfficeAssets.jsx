@@ -3,7 +3,7 @@ const OfficeAssets = () => {
     <div className="p-4">
       <div className="z-[-9999px] -mt-12 md:-mt-0 p-6 bg-white max-w-[1440px] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {/* item 1 */}
-        <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6 rounded-3xl hover:-translate-y-4 hover:transition-all hover:duration-300 delay-100">
+        <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6 rounded-3xl hover:-translate-y-4 transition-all duration-300 delay-100">
           <div>
             <img
               src="https://dreamslms.dreamguystech.com/html/assets/img/pencil-icon.svg"
@@ -17,7 +17,7 @@ const OfficeAssets = () => {
         </div>
         {/* item 2 */}
         <div>
-          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 hover:transition-all hover:duration-300">
+          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 transition-all duration-300 delay-100">
             <div>
               <img
                 src="https://dreamslms.dreamguystech.com/html/assets/img/cources-icon.svg"
@@ -32,7 +32,7 @@ const OfficeAssets = () => {
         </div>
         {/* item 3 */}
         <div>
-          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 hover:transition-all hover:duration-300">
+          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 transition-all duration-300 delay-100">
             <div>
               <img
                 src="https://dreamslms.dreamguystech.com/html/assets/img/certificate-icon.svg"
@@ -47,7 +47,7 @@ const OfficeAssets = () => {
         </div>
         {/* item 4 */}
         <div>
-          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 hover:transition-all hover:duration-300">
+          <div className="bg-white lg:-mt-24 mt-8 flex items-center border max-w-sm p-6  rounded-3xl hover:-translate-y-4 transition-all duration-300 delay-100">
             <div>
               <img
                 src="https://dreamslms.dreamguystech.com/html/assets/img/gratuate-icon.svg"

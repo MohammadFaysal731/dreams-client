@@ -25,7 +25,7 @@ const Career = () => {
           {/* second content */}
           <div className="grid grid-cols-1 md:grid-cols-2 mt-14 gap-5">
             {/* item 1 */}
-            <div className="max-w-md border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl hover:-translate-y-2 transition-all duration-300 delay-75">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-1.svg"
@@ -38,7 +38,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 2 */}
-            <div className="max-w-md border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl hover:-translate-y-2 transition-all duration-300 delay-75">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-2.svg"
@@ -51,7 +51,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 3 */}
-            <div className="max-w-md border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl hover:-translate-y-2 transition-all duration-300 delay-75">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-2.svg"
@@ -64,7 +64,7 @@ const Career = () => {
               </div>
             </div>
             {/* item 4 */}
-            <div className="max-w-md border py-4 rounded-xl">
+            <div className="max-w-md border py-4 rounded-xl hover:-translate-y-2 transition-all duration-300 delay-75">
               <div className="flex justify-center items-center">
                 <img
                   src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-4.svg"
@@ -83,7 +83,7 @@ const Career = () => {
           <img
             src="https://dreamslms.dreamguystech.com/html/assets/img/join.png"
             alt="banner"
-            className="absolute top-[60px] left-[70px]  w-[80%]"
+            className="absolute top-[87px] left-[70px]  w-[80%]"
           />
         </div>
       </div>

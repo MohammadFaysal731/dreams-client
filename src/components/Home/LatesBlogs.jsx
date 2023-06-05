@@ -1,0 +1,262 @@
+import { BiCalendar } from "react-icons/bi";
+
+const LatesBlogs = () => {
+  return (
+    <div className="bg-gradient-to-t from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary pt-4 pb-24">
+      <div className=" max-w-[1440px] mx-auto p-3 ">
+        {/* first part */}
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold mb-8">Latest Blogs</h2>
+          <p className="text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean
+            accumsan bibendum
+          </p>
+          <p className="text-sm">
+            gravida maecenas augue elementum et neque. Suspendisse imperdiet.
+          </p>
+        </div>
+        {/* second part */}
+        <div className="">
+          {/* first container  */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            {/* blog 1 */}
+            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-01.jpg"
+                  alt="blog"
+                  className="rounded-t w-full"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">
+                  Attract Attention Sales And Profits
+                </h2>
+                <h4 className="text-warning-content font-medium">Marking</h4>
+                <span className="flex items-center">
+                  <BiCalendar className="text-lg text-primary me-3" />
+                  <p className="text-sm font-medium ">Jun 15, 2022</p>
+                </span>
+              </div>
+            </div>
+            {/* blog 2 */}
+            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-02.jpg"
+                  alt="blog"
+                  className="rounded-t w-full"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">
+                  11 Tips to Help You Get New Clients
+                </h2>
+                <h4 className="text-warning-content font-medium">
+                  Sales Order
+                </h4>
+                <span className="flex items-center">
+                  <BiCalendar className="text-lg text-primary  me-3" />
+                  <p className="text-sm font-medium ">May 20,2022</p>
+                </span>
+              </div>
+            </div>
+            {/* blog 3 */}
+            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-03.jpg"
+                  alt="blog"
+                  className="rounded-t w-full"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">An Overworked Newspaper Editor</h2>
+                <h4 className="text-warning-content font-medium">Design</h4>
+                <span className="flex items-center">
+                  <BiCalendar className="text-lg text-primary me-3" />
+                  <p className="text-sm font-medium ">May 25, 2022</p>
+                </span>
+              </div>
+            </div>
+            {/* blog 4 */}
+            <div className="card max-w-md md:max-w-xs bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/blog/blog-04.jpg"
+                  alt="blog"
+                  className="rounded-t w-full"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">A Solution Buit for Teacher</h2>
+                <h4 className="text-warning-content font-medium">Seo</h4>
+                <span className="flex items-center">
+                  <BiCalendar className="text-lg text-primary me-3" />
+                  <p className="text-sm font-medium ">Jul 15, 2022</p>
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* second container */}
+          <div className="grid grid-cols-1 md:grid-cols-3  space-y-5 bg-gradient-to-r from-success to-info p-10 shadow-xl mt-8 rounded-3xl">
+            {/* item 1 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-07.svg"
+                  alt="students-enrolled"
+                />
+              </div>
+              <div>
+                <div className="text-4xl font-bold">253,085</div>
+                <div className="text-lg mt-3">STUDENTS ENROLLED</div>
+              </div>
+            </div>
+            {/* item 2 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-08.svg"
+                  alt="total-courses"
+                />
+              </div>
+              <div>
+                <div className="text-4xl font-bold">1,205</div>
+                <div className="text-lg mt-3">TOTAL COURSES</div>
+              </div>
+            </div>
+            {/* item 3 */}
+            <div className="flex items-center">
+              <div className="bg-white me-3 rounded-xl p-2">
+                <img
+                  src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
+                  alt="countries"
+                />
+              </div>
+              <div>
+                <div className="text-4xl font-bold">127</div>
+                <div className="text-lg mt-3">COUNTRIES</div>
+              </div>
+            </div>
+          </div>
+          {/* third container */}
+          <div className="">
+            {/* first content */}
+            <div className="text-center m-14">
+              <h1 className="text-4xl font-bold">
+                Unlimited access to 360+ courses
+              </h1>
+              <h1 className="text-4xl font-bold"> and 1,600+ hands-on labs</h1>
+            </div>
+            {/* second content */}
+            <div className="cursor-pointer  place-items-center grid grid-cols-4 gap-5 lg:flex lg:justify-center lg:items-center lg:space-x-8">
+              {/* item 1 */}
+              <div className="flex">
+                <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-09.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 2 */}
+              <div className="flex">
+                <div className="hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-10.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 3 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 4 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-12.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 5 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-13.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 6 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-14.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 7 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-15.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 8 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-16.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 9 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-17.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+              {/* item 10 */}
+              <div className="flex">
+                <div className=" hover:-translate-y-3 transition-all duration-700 bg-white me-3 rounded-xl p-2">
+                  <img
+                    src="https://dreamslms.dreamguystech.com/html/assets/img/icon/icon-18.svg"
+                    alt="countries"
+                    className="w-14"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default LatesBlogs;
