@@ -101,7 +101,7 @@ const Instructor = () => {
                     Web Developer
                   </h4>
                   <span className="flex items-center">
-                    <HiUsers className="text-lg text-primary me-3" />
+                    <HiUsers className="text-lg text-primary-focus me-3" />
                     <p className="text-sm font-medium ">50 Students</p>
                   </span>
                 </div>
