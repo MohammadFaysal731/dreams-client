@@ -6,7 +6,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState(false);
   return (
-    <nav className="z-[11] sticky top-0 p-2 bg-gradient-to-r from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary ">
+    <nav className="z-[11] sticky top-0 p-2 bg-gradient-to-b from-accent to-secondary md:bg-gradient-to-l md:from-accent md:to-secondary lg:bg-gradient-to-r lg:from-accent lg:to-secondary">
       <div className="max-w-[1440px] mx-auto p-1 relative">
         <div className="md:flex md:justify-between md:items-center ">
           {/* first part */}
